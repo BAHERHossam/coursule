@@ -1,0 +1,65 @@
+* {
+    text-decoration: none;
+    color: aliceblue;
+}
+section {
+    position: relative;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background: -webkit-linear-gradient(0deg, rgba(103, 194, 177, 1) 0%, rgba(25, 45, 98, 1) 50%);
+    div {
+        display: flex;
+        justify-content: space-around;
+        align-items: start;
+        .logo {
+            align-self: center;
+            img {
+                width: 300px;
+                margin-left: 0px;
+            }
+        }
+        .courses {
+            flex-direction: column;
+            // margin-bottom: 500px;
+            div {
+                h2 {
+                    color: #f1ff2e;
+                    margin-bottom: 50px;
+                    font-family: "Pacifico", cursive;
+                    letter-spacing: 2px;
+                    font-size: 30px;
+                    font-weight: 100;
+                }
+                a {
+                    margin-bottom: 20px;
+                    font-size: 20px;
+                    i {
+                        width: 30px;
+                        margin-right: 10px;
+                    }
+                }
+            }
+        }
+        .contact {
+            flex-direction: column;
+            div {
+                h2 {
+                    color: #f1ff2e;
+                    margin-bottom: 50px;
+                    font-family: "Pacifico", cursive;
+                    letter-spacing: 2px;
+                    font-size: 30px;
+                    font-weight: 100;
+                }
+                a {
+                    margin-bottom: 20px;
+                    font-size: 20px;
+                    i {
+                        width: 30px;
+                        margin-right: 10px;
+                    }
+                }
+            }
+        }
+    }
+}

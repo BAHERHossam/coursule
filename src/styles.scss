@@ -1,0 +1,23 @@
+* {
+    font-family: "Josefin Sans", sans-serif;
+    font-optical-sizing: auto;
+}
+html {
+    background-color: #1e2342;
+}
+body {
+    width: 100vw;
+    margin: 0px;
+    height: 100vh;
+    background: -webkit-linear-gradient(315deg, #67c2b1 0%, #192d62 100%);
+    background-repeat: no-repeat;
+    @media (max-width: 1024px) {
+        height: 170vh;
+        width: 100vw;
+    }
+
+    @media (max-width: 768px) {
+        width: 100vw;
+        height: 170vh;
+    }
+}

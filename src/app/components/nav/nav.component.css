@@ -1,0 +1,31 @@
+.container {
+  max-width: 100%;
+  margin: 0 auto;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 10%;
+  background-color: #46659e;
+  color: white;
+}
+nav .logo img {
+  font-size: 3rem;
+}
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+nav ul li a {
+  color: white;
+  background-color: rgb(65, 72, 134);
+  text-decoration: none;
+  font-size: 1.2rem;
+  cursor: pointer;
+}
+nav ul li a:hover {
+  background-color: blue;
+}/*# sourceMappingURL=nav.component.css.map */
